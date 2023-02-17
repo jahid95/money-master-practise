@@ -30,7 +30,7 @@
                     <h4 class="income-title">Expenses</h4>
                     <div class="input-area">
                         <p>Food:</p>
-                        <input class="input" type="text">
+                        <input class="input" type="text" value="0">
                     </div>
                     <div class="input-area">
                         <p>Rent:</p>
@@ -41,14 +41,14 @@
                         <input class="input" type="text">
                     </div>
                 </div>
-                <button class="btn-calculate">Calculate</button>
+                <button id="calculate-btn" class="btn-calculate">Calculate</button>
                 <h4 class="income-title">Total Expenses: <span id="total-expenses"></span></h4>
                 <h4 class="income-title">Balance: <span id="balance"></span></h4>
                 <div>
                     <p>Save: 
                         <input id="input-save" type="text">
                        <span class="modulas"> %</span>
-                        <button class="btn-save">Save</button>
+                        <button id="save" class="btn-save">Save</button>
                     </p>
                 </div>
                 <h4 class="income-title">Saving Amount: <span id="saving-amount"></span></h4>
@@ -56,6 +56,9 @@
             </div>
         </section>
     </main>
+
+    <!-- js link -->
+    <script src="app.js"></script>
 </body>
 
 </html>
